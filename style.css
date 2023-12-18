@@ -1,8 +1,7 @@
 
 /* body è un selettore */
 h4 {
-    background-color: darkturquoise;
-    color: red;
+    
 }
 
 body {
@@ -11,19 +10,16 @@ body {
     color: rgba(32, 23, 20, .9);
     font-family: 'HalyardDis_ISIAU Bk';
     font-size: 28px;
-    background-color: yellow;
 }
 
 a {
-    color: rgb(98, 0, 255);
-    text-decoration: overline;
+    border-bottom: 1px solid black; /*shorthand*/
+    
 }
 
 a:hover {
-    color: rgb(255, 0, 174);
+    color: black;
     text-decoration: underline;
-    font-weight: 700;
-    font-style: italic;
 }
 
 a:visited {
