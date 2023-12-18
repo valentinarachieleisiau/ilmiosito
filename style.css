@@ -1,0 +1,31 @@
+
+/* body è un selettore */
+h4 {
+    background-color: darkturquoise;
+    color: red;
+}
+
+body {
+    /*color: rgb(44, 231, 67);*/
+    /*color: #ff0000;*/
+    color: rgba(32, 23, 20, .9);
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+}
+
+a {
+    color: rgb(98, 0, 255);
+    text-decoration: overline;
+}
+
+a:hover {
+    color: rgb(255, 0, 174);
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: line-through;
+}
