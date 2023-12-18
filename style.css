@@ -11,6 +11,7 @@ body {
     color: rgba(32, 23, 20, .9);
     font-family: 'Sacramento', cursive;
     font-size: 28px;
+    background-color: yellow;
 }
 
 a {
