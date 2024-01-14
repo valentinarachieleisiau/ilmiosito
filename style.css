@@ -1,15 +1,16 @@
 
-/* body è un selettore */
-h4 {
-    
-}
-
 body {
     /*color: rgb(44, 231, 67);*/
     /*color: #ff0000;*/
     color: rgba(32, 23, 20, .9);
     font-family: 'HalyardDis_ISIAU Bk', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 16px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    height: 100vh; /*viewport height*/
+    overflow-y: hidden;
 }
 
 a {
@@ -23,11 +24,66 @@ a:hover {
     text-decoration: underline;
 }
 
-div {
-    background-color: lightblue;
-}
-
 a:visited {
     color: grey;
     text-decoration: line-through;
 }
+
+div {
+   width: 20%; 
+   padding: 0 5px 0 5px; /*top right bottom left*/
+   overflow-y: scroll;
+}
+
+div.uno, div.due, div.tre, div.quattro {
+    border-right: 1px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.3em; /*21:16*/
+    font-weight: normal;
+    position: fixed;
+    background-color: white;
+    width: calc(20% - 10px);
+}
+
+div.due time {
+    font-size: 1.18em; /*19:16*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+div::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+div.separatore {
+    margin-top: 30px;
+}
+
+/*il codice che segue vale per tutti gli schermi la cui larghezza massima è 420px*/
+@media screen and (max-width: 420px) {
+    body {
+        /*background-color: lime;*/
+        /*display: block;*/
+        width: calc(100vw * 5);
+    }
+    /*div {
+        width: 100%;
+    }*/
+    h3 {
+        
+    }
+}
+
+
