@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(300, 300);
+    createCanvas.parent("p5");
 }
 function draw() {
     background(255);
