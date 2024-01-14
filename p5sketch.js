@@ -1,6 +1,6 @@
 function setup() {
-    createCanvas(300, 300);
-    createCanvas.parent("p5");
+    let ilmiosketch = createCanvas(300, 300);
+    ilmiosketch.parent("p5");
 }
 function draw() {
     background(255);
